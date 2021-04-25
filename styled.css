@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	height: 100vh;
+	width: 100vw;
+	background-color: lightgreen;
+}
+.kalkulator {
+	width: 400px;
+	height: 500px;
+	background-color: orange;
+	margin: 0px auto;
+}
+.kalkulator h1 {
+	text-align: center;
+	color: navy;
+	font-family: arial;
+	padding-top: 10px;
+}
+form {
+	width: 100%;
+
+
+}
+form input	{
+	width: 80%;
+	height: 40px;
+	margin-left: 10%;
+	padding-left: 10px;
+
+
+}
+button {
+	width: 80%;
+	margin-left: 10%;
+	height: 40px;
+	color: white;
+	background-color: navy;
+	border-radius: 10px;
+	border: 1px solid white;
+}
+button:hover {
+	transform: scale(1.05);
+}
+label {
+	padding-left: 20%;
+	color: white;
+	font-family: arial;
+	font-size: 20px;
+}
+select {
+	background-color: navy;
+	color: white;
+}
+textarea {
+	width: 80%;
+	margin-top: 20px;
+	margin-left: 10%;
+	font-size: 20px;
+	font-family: arial;
+}
